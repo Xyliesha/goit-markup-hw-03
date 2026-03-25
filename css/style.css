@@ -28,6 +28,10 @@
 
 .navigation {
   list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .nav-link {
@@ -62,6 +66,8 @@
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .banner button {
@@ -77,6 +83,7 @@
   border-radius: 4px;
   letter-spacing: 1.2px;
   vertical-align: middle;
+  margin-bottom: 30px;
 }
 
 .banner button:hover {
@@ -94,6 +101,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .section-whatwedo-h2 {
@@ -110,10 +118,25 @@ body {
 .section-whatwedo-h2 {
   color: var(--text-headings);
   font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  text-align: center;
+}
+
+.section-what-we-do {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .section-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-team {
@@ -125,18 +148,30 @@ body {
 
 .section-team-list {
   list-style: none;
+  display: flex;
+  padding-bottom: 94px;
+  gap: 30px;
+}
+
+.section-team-li {
+  background-color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .section-team-h2 {
   font-family: var(--main-font);
   font-size: 36px;
+  text-align: center;
   letter-spacing: 1.08px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .section-title-h3 {
   color: var(--text-headings);
   font-size: 16px;
   font-weight: 500;
+  text-align: center;
 }
 
 .text-team {
@@ -144,6 +179,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.48px;
   color: var(--main-text);
+  text-align: center;
 }
 
 .portfolio-title-h3 {
@@ -154,10 +190,26 @@ body {
 
 .portfolio-project-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 34px 215px 94px 215px;
+  margin: 0 auto;
+}
+
+.section-team-li2 {
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  gap: 4px;
 }
 
 .filters-list {
   list-style: none;
+  display: flex;
+  gap: 9px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .text-portfolio {
