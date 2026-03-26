@@ -16,6 +16,9 @@
   font-size: 26px;
   text-decoration: none;
   color: var(--text-headings);
+  padding-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 26px;
 }
 
 .logo-web {
@@ -29,9 +32,10 @@
 .navigation {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 50px;
   padding-bottom: 32px;
   padding-top: 32px;
+  margin-left: 20px;
 }
 
 .nav-link {
@@ -53,6 +57,7 @@
   color: var(--main-text);
   font-size: 14px;
   text-decoration: none;
+  gap: 50px;
 }
 
 .contact:hover {
@@ -126,9 +131,11 @@ body {
 .section-what-we-do {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 30px;
   padding-top: 50px;
   padding-bottom: 94px;
+  margin: 0 auto;
 }
 
 .section-list {
@@ -137,6 +144,7 @@ body {
   gap: 30px;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0 auto;
 }
 
 .section-team {
@@ -149,8 +157,10 @@ body {
 .section-team-list {
   list-style: none;
   display: flex;
+  justify-content: center;
   padding-bottom: 94px;
   gap: 30px;
+  margin: 0 auto;
 }
 
 .section-team-li {
@@ -202,6 +212,7 @@ body {
   background-color: #ffffff;
   padding-bottom: 20px;
   gap: 4px;
+  width: 30%;
 }
 
 .filters-list {
@@ -210,6 +221,7 @@ body {
   gap: 9px;
   padding-top: 94px;
   padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 .text-portfolio {
