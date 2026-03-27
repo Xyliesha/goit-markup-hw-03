@@ -8,6 +8,29 @@
   --background-color: #2f303a;
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway";
+  --line-color: #ececec;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: var(--text);
+  border-bottom: 1px solid var(--line-color);
 }
 
 .logo {
@@ -16,7 +39,6 @@
   font-size: 26px;
   text-decoration: none;
   color: var(--text-headings);
-  padding-left: 215px;
   padding-top: 24px;
   padding-bottom: 26px;
 }
@@ -57,6 +79,7 @@
   color: var(--main-text);
   font-size: 14px;
   text-decoration: none;
+  display: flex;
   gap: 50px;
 }
 
@@ -106,7 +129,8 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  gap: 10px;
+  margin: 0;
 }
 
 .section-whatwedo-h2 {
@@ -145,6 +169,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .section-team {
@@ -200,11 +225,10 @@ body {
 
 .portfolio-project-list {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   gap: 30px;
-  padding: 34px 215px 94px 215px;
   margin: 0 auto;
 }
 
@@ -212,15 +236,16 @@ body {
   background-color: #ffffff;
   padding-bottom: 20px;
   gap: 4px;
-  width: 30%;
 }
 
 .filters-list {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 9px;
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 34px;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -259,19 +284,30 @@ body {
   letter-spacing: 0.42px;
   background-color: var(--background-color);
   text-decoration: none;
+  gap: 9px;
+  margin: 0 auto;
+  display: block;
+  padding-left: 215px;
 }
 
-.footer:hover {
+.footer-link {
+  color: var(--footer-text);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 9px;
+}
+
+.footer-link:hover {
   color: var(--button-fon);
 }
 
-.footer:focus {
+.footer-link:focus {
   color: var(--button-fon);
 }
 
 .footer-text {
   color: var(--text);
-  margin: 0;
+  margin-bottom: 9px;
 }
 
 .footer-logo {
@@ -282,4 +318,7 @@ body {
   letter-spacing: 0.78px;
   color: var(--text);
   text-decoration: none;
+  display: block;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
